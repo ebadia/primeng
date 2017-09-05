@@ -145,9 +145,9 @@ export class Paginator {
     }
 
     changePageToFirst(event) {
-      if (!this.isFirstPage()){
+      // if (!this.isFirstPage()){
         this.changePage(0, event);
-      }
+      // }
     }
 
     changePageToPrev(event) {
